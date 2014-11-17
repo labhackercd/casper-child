@@ -1,0 +1,40 @@
+.nav-top .nav.navbar-nav {
+  font-size: 70%;
+}
+
+.site-head {
+  height: 290px;
+  background-image: url("../imgs/Header.jpg");
+  background-size: cover;
+  background-position: 20%;
+  border-bottom: 10px solid #BCE328;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.site-head h1 {
+  font-family: 'Oswald';
+}
+
+.site-head h2 {
+  font-family: 'Oswald';
+}
+
+footer {
+  font-family: 'Oswald';
+  font-size: 70%;
+}
+
+#colophon {
+  display: none;
+}
+
+.widget-area a {
+  text-decoration: none;
+}
+
+.widget-area .widget-title {
+  font-family: 'Oswald';
+  letter-spacing: 0px;
+}
