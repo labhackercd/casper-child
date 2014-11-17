@@ -45,12 +45,12 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-        <li><a href="#">blog</a></li>
-        <li><a href="#about">e-democracia</a></li>
-        <li><a href="#contact">hackdash</a></li>
-        <li><a href="#contact">github</a></li>
+        <li><a href="//blog.labhackercd.net/">Blog</a></li>
+        <li><a href="http://edemocracia.camara.gov.br/web/laboratorio-hacker">e-Democracia</a></li>
+        <li><a href="http://labhacker.hackdash.org/">HackDash</a></li>
+        <li><a href="https://github.com/labhackercd/">Github</a></li>
         <li>
-        <a class="twitter" href="#">
+        <a class="twitter" href="https://twitter.com/labhackercd">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -58,7 +58,7 @@
         </a>
         </li>
         <li>
-        <a class="facebook" href="#">
+        <a class="facebook" href="https://www.facebook.com/LabHackerCD">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -66,7 +66,7 @@
         </a>
         </li>
         <li>
-        <a class="flickr" href="#">
+        <a class="flickr" href="https://www.flickr.com/photos/118815643@N04/">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
