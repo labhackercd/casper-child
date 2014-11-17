@@ -41,7 +41,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#"><img class="logo" src="<?php echo get_stylesheet_directory_uri() ?>/imgs/Logo-Glitch.gif" /></a>
+        <a href="//labhackercd.net/"><img class="logo" src="<?php echo get_stylesheet_directory_uri() ?>/imgs/Logo-Glitch.gif" /></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
