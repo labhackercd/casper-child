@@ -1,15 +1,3 @@
-/*
-  Theme Name:       Casper Child
-  Theme URI:        https://github.com/lacymorrow/casper-wp
-  Author:           Lacy Morrow
-  Author URI:       http://lacymorrow.com
-  Description:      Casper Child Theme
-  Version:          1.0.0
-  Template:         casper
-  Usage: Copy the casper-child folder into your wp-content/themes/ directory and activate it in the dashboard.
-*/
-
-/* ----- Begin Customizations Here - Enjoy :) ----- */
 .extraneous {
   /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
   /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -4606,7 +4594,8 @@
     background-color: #2f3f4e;
     padding-top: 20px;
     padding-bottom: 40px;
-    color: white; }
+    color: white;
+    margin-bottom: -15px; }
     .extraneous footer a {
       color: white;
       opacity: 0.6; }
@@ -4617,14 +4606,20 @@
     .extraneous footer .text {
       text-align: justify;
       opacity: 0.6; }
+  .extraneous .navbar-header {
+    max-width: 100%; }
+    .extraneous .navbar-header img {
+      width: 100%; }
   .extraneous .nav-top {
     font-family: 'Oswald';
     margin-bottom: 0px; }
     .extraneous .nav-top .logo {
       margin-left: -45px; }
     .extraneous .nav-top .navbar-toggle {
-      margin-top: 40px;
-      background-color: #e7e7e7; }
+      background-color: #e7e7e7;
+      position: absolute;
+      top: 10px;
+      right: 0; }
       .extraneous .nav-top .navbar-toggle .icon-bar {
         background-color: #8e8e8e; }
     .extraneous .nav-top .in ul, .extraneous .nav-top .collapsing ul {
@@ -4640,6 +4635,7 @@
       border-top: 1px solid #e7e7e7; }
     .extraneous .nav-top .nav.navbar-nav {
       padding: 40px 0px 40px 0px;
+      margin-right: -45px;
       float: right; }
       .extraneous .nav-top .nav.navbar-nav span {
         margin-top: -10px; }
@@ -4668,14 +4664,37 @@
     background-image: url("../img/Header.jpg");
     background-size: cover;
     background-position: 20%;
-    border-bottom: 10px solid #BCE328; }
+    border-bottom: 10px solid #BCE328;
+    text-align: center;
+    color: white;
+    position: relative; }
+    .extraneous .top .content {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      margin: auto; }
+      .extraneous .top .content h4 {
+        margin-top: 20px; }
+    .extraneous .top .btn-primary {
+      background-color: #bce328;
+      color: #2f3f4e;
+      border-color: #789213;
+      margin-top: 20px; }
+      .extraneous .top .btn-primary:hover {
+        background-color: #afd61c;
+        border-color: #789213; }
   .extraneous .blog {
     background-color: #e7e7e7; }
     .extraneous .blog .post-slot {
       margin-top: 30px;
       padding: 20px;
       height: 300px;
-      background-size: cover; }
+      background-size: cover;
+      background-position: center; }
       .extraneous .blog .post-slot .title {
         position: absolute;
         margin-right: 20px;
