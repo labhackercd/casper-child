@@ -30,6 +30,19 @@ module.exports = function(grunt) {
           src: '**.*',
           dest: './fonts/'
         }]
+      },
+      bootstrap_scripts: {
+        files: [{
+          expand: true,
+          cwd: './node_modules/labhackercd.net/bower_components/bootstrap-sass-official/assets/javascripts/',
+          src: 'bootstrap.js',
+          dest: './scripts/'
+        }, {
+          expand: true,
+          cwd: './node_modules/labhackercd.net/bower_components/jquery/dist/',
+          src: 'jquery.js',
+          dest: './scripts/'
+        }]
       }
     }
   });
