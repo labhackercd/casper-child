@@ -21,7 +21,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 
 <?php wp_head(); ?>
 </head>
@@ -29,53 +29,68 @@
 <body <?php body_class(); ?>>
 
 <div class="extraneous">
-<div class="container">
-  <nav class="navbar nav-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="//labhackercd.net/"><img class="logo" src="<?php echo get_stylesheet_directory_uri() ?>/imgs/Logo-Glitch.gif" /></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-        <li><a href="//blog.labhackercd.net/">Blog</a></li>
-        <li><a href="http://edemocracia.camara.gov.br/web/laboratorio-hacker">e-Democracia</a></li>
-        <li><a href="http://labhacker.hackdash.org/">HackDash</a></li>
-        <li><a href="https://github.com/labhackercd/">Github</a></li>
-        <li>
-        <a class="twitter" href="https://twitter.com/labhackercd">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        </li>
-        <li>
-        <a class="facebook" href="https://www.facebook.com/LabHackerCD">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        </li>
-        <li>
-        <a class="flickr" href="https://www.flickr.com/photos/118815643@N04/">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        </li>
-      </ul>
-      </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-  </nav>
-</div>
+  <div class="container">
+    <nav class="navbar nav-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="//labhackercd.net/"><img class="logo" src="{{ assets }}/img/Logo-Glitch.gif" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          <li><a href="//blog.labhackercd.net/">Blog</a></li>        
+          <li>
+            <a href="//labhackercd.net/about.html">Sobre</a>
+          </li>
+          <li class="separator">&nbsp</li>
+          <li>
+            <a title="E-democracia" class="edemocracia icon-img" href="http://edemocracia.camara.gov.br/web/laboratorio-hacker"></a>
+          </li>
+          <li>
+            <a title="Hackdash" class="hackdash icon-img" href="http://labhacker.hackdash.org/"></a>
+          </li>        
+          <li>
+          <a title="Github" class="github icon" href="https://github.com/labhackercd/">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          </li>
+          <li>
+          <a title="Twitter" class="twitter icon" href="https://twitter.com/labhackercd">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          </li>
+          <li>
+          <a title="Facebook" class="facebook icon" href="https://www.facebook.com/LabHackerCD">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          </li>
+          <li>
+          <a title="Flickr" class="flickr icon" href="https://www.flickr.com/photos/118815643@N04/">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          </li>
+        </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+  </div>
 </div>
 
 <header id="masthead" role="banner" class="site-head site-header" <?php if(get_header_image() ) : ?>style="background-image: url(<?php header_image(); ?>);"<?php endif ?>>

@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.site-head:after {
+  display: none !important;
+}
+
 .site-head h1 {
   font-family: 'Oswald';
 }
