@@ -22,13 +22,11 @@
 
 <!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-<link href="css/font-awesome.min.css" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-
 
 <div class="extraneous">
 <div class="container">
