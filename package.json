@@ -1,0 +1,25 @@
+{
+  "name": "casper-child-labhacker",
+  "version": "0.0.0",
+  "description": "A Ghost-like WordPress theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labhackercd/casper-child.git"
+  },
+  "author": "Dirley Rodrigues <dirleyrls@gmail.com> (http://romenor.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labhackercd/casper-child/issues"
+  },
+  "homepage": "https://github.com/labhackercd/casper-child",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "labhackercd.net": "git://github.com/labhackercd/labhackercd.net"
+  }
+}
