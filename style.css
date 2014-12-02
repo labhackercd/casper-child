@@ -4617,9 +4617,9 @@
           background-position-y: 100%;
           background-size: 100%; }
       .extraneous .nav-top .nav.navbar-nav .icon-img.edemocracia {
-        background-image: url("../img/icon-e-democracia.png"); }
+        background-image: url("./img/icon-e-democracia.png"); }
       .extraneous .nav-top .nav.navbar-nav .icon-img.hackdash {
-        background-image: url("../img/icon-hackdash.png"); }
+        background-image: url("./img/icon-hackdash.png"); }
       .extraneous .nav-top .nav.navbar-nav a.github {
         margin-left: -10px; }
         .extraneous .nav-top .nav.navbar-nav a.github:hover {
